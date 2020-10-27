@@ -1,8 +1,8 @@
 # testing123
 
 Some summary text here
+# Anchore SYFT Software Bill of Materials
 ```
-SYFT OUTPUT
 NAME                    VERSION      TYPE 
 alpine-baselayout       3.2.0-r7     apk   
 alpine-keys             2.2-r0       apk   
