@@ -1,5 +1,7 @@
-FROM ubuntu:latest
+FROM alpine:latest
 
-RUN echo HELLO
+LABEL org.opencontainers.image.source https://github.com/nurmi/temporarytest
 
-CMD ["/bin/sh"]
+RUN echo Hello
+
+CMD ['/bin/sh']
