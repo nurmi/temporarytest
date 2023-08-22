@@ -11,6 +11,8 @@ jobs:
     name: "Static analysis"
     runs-on: ubuntu-20.04
     steps:
+     - env:
+       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
      - uses: actions/checkout@v2
      - name: teststep
        run: ./testthing.sh
