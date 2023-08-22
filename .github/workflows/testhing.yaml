@@ -14,5 +14,5 @@ jobs:
      - uses: actions/checkout@v2    
      - name: teststep
        run: ./testthing.sh    
-     - env:
-       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#     - env:
+#       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
