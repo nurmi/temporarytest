@@ -1,0 +1,16 @@
+name: "TestThings"
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  TestThing:
+    name: "Static analysis"
+    runs-on: ubuntu-20.04
+    steps:
+     - uses: actions/checkout@v2
+     - name: teststep
+       run: ./testthing.sh
